@@ -62,19 +62,33 @@ plaintext
 Copiar
 Editar
 api/
+
 ├── prisma/              # Arquivos relacionados ao Prisma (schema e migrações)
+
 ├── src/
+
 │   ├── controllers/     # Lógica dos controladores
+
 │   ├── middlewares/     # Middlewares da aplicação
+
 │   ├── repositories/    # Manipulação de dados
+
 │   ├── routes/          # Configuração de rotas
+
 │   ├── validations/     # Validações com Yup
+
 |   ├── translations/    # Textos retornados ao usuario
+
 │   ├── server.ts        # Arquivo principal do servidor
+
 ├── .env                 # Configurações de ambiente
+
 ├── docker-compose.yml   # Configuração para o Docker
+
 ├── package.json         # Gerenciamento de dependências e scripts
+
 └── README.md            # Documentação do projeto
+
 📦 Dependências Principais
 express: Framework web para Node.js.
 @prisma/client: Cliente para interagir com o banco de dados.
@@ -89,4 +103,4 @@ ts-node-dev: Para executar o projeto em modo desenvolvimento com suporte a TypeS
 📝 Licença
 Este projeto está licenciado sob a Licença ISC.
 
-Feito com ❤️ por Seu Nome.
+Feito com ❤️ por Josue Leandro Navarro Ribeiro.
